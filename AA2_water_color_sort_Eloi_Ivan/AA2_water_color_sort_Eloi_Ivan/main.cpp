@@ -1,12 +1,11 @@
-#include <iostream>
-#include <fstream>
-#define ANCHO 6
-#define ALTO 3
+#include "defines.h"
 
 
 int main() {
 
+	int posicionmover, posicionfinal;
 	char tablero[ALTO][ANCHO];
+	char fichas[] = { 'X', 'O', '#', 'S' };
 
 	for (int i = 0; i < ALTO; i++) {
 		for (int j = 0; j < ANCHO; j++) {
@@ -26,6 +25,12 @@ int main() {
 	}
 	std::cout << "''' ''' ''' ''' ''' '''" << std::endl;
 	std::cout << " 1   2   3   4   5   6 " << std::endl;
+
+	std::cout << "Posicion que quieres mover: \n";
+	std::cin >> posicionmover;
+	std::cout << "Posicion donde quieres mover: \n";
+	std::cin >> posicionfinal;
+
 
 	return 0;
 }
