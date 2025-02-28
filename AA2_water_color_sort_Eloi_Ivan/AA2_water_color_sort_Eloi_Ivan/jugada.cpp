@@ -1,13 +1,10 @@
 #include "jugada.h"
 #include "tablero.h"
 
-void pedirSource(short& indiceSource)
-{
+void pedirSource(short& indiceSource) {
 	bool error = false;
-	do
-	{
-		if (error)
-		{
+	do {
+		if (error) {
 			std::cin.clear();
 			std::cin.ignore(1000, '\n');
 			std::cout << "Introduce una posicion valida.";
@@ -19,13 +16,10 @@ void pedirSource(short& indiceSource)
 	indiceSource -= 1;
 }
 
-void pedirDestino(short& indiceDestino, short indiceSource)
-{
+void pedirDestino(short& indiceDestino, short indiceSource) {
 	bool error = false;
-	do
-	{
-		if (error)
-		{
+	do {
+		if (error) {
 			std::cin.clear();
 			std::cin.ignore(1000, '\n');
 			std::cout << "Introduce una posicion valida.";
@@ -37,23 +31,18 @@ void pedirDestino(short& indiceDestino, short indiceSource)
 	indiceDestino -= 1;
 }
 
-void moverContenido(short indiceSource, short indiceDestino, char tablero[ALTO][ANCHO])
-{
+void moverContenido(short indiceSource, short indiceDestino, char tablero[ALTO][ANCHO]) {
 	char elementoAMover = ' ';
-	for (short i = 0; i < ALTO; i++)
-	{
-		if (tablero[i][indiceSource] != VACIO)
-		{
+	for (short i = 0; i < ALTO; i++) {
+		if (tablero[i][indiceSource] != VACIO) {
 			elementoAMover = tablero[i][indiceSource];
 			tablero[i][indiceSource] = VACIO;
 			break;
 		}
 	}
 
-	for (short i = ALTO-1; i >= 0; i--)
-	{
-		if (tablero[i][indiceDestino] == VACIO)
-		{
+	for (short i = ALTO-1; i >= 0; i--) {
+		if (tablero[i][indiceDestino] == VACIO) {
 			tablero[i][indiceDestino] = elementoAMover;
 			break;
 		}
@@ -61,29 +50,24 @@ void moverContenido(short indiceSource, short indiceDestino, char tablero[ALTO][
 
 }
 
-short calcularPuntuacion(char tablero[ALTO][ANCHO], short intentos)
-{
+short calcularPuntuacion(char tablero[ALTO][ANCHO], short intentos) {
 	short puntuacion = 0;
 
-	for (short i = 0; i < ANCHO; i++)
-	{
-		if (columnaTotalmenteVacia(tablero, i))
-		{
+	for (short i = 0; i < ANCHO; i++) {
+		if (columnaTotalmenteVacia(tablero, i)) {
 			puntuacion += 50;
 			continue;
 		}
 
 		//columna llena de elemetos iguales (no vacía)
 		else if ((tablero[ALTO - 1][i] == tablero[ALTO - 2][i] &&
-			tablero[0][i] == tablero[ALTO - 1][i]) && (tablero[ALTO - 1][i] != VACIO))
-		{
+			tablero[0][i] == tablero[ALTO - 1][i]) && (tablero[ALTO - 1][i] != VACIO)) {
 			puntuacion += 30;
 		}
 
 		//columna con elementos iguales, pero no llena del todo
 		else if ((tablero[ALTO-1][i] == tablero[ALTO - 2][i]) 
-			&& tablero[0][i] == VACIO)
-		{
+			&& tablero[0][i] == VACIO) {
 			puntuacion += 30;
 		}
 	}
@@ -92,4 +76,3 @@ short calcularPuntuacion(char tablero[ALTO][ANCHO], short intentos)
 
 	return puntuacion;
 }
-

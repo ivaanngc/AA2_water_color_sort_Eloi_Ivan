@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\franl\\Documents\\GitHub\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7391A6-7C3C-4F2C-B64D-C336A4828462}|AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan.vcxproj|C:\\Users\\franl\\Documents\\GitHub\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3D7391A6-7C3C-4F2C-B64D-C336A4828462}|AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan.vcxproj|solutionrelative:AA2_water_color_sort_Eloi_Ivan\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7391A6-7C3C-4F2C-B64D-C336A4828462}|AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan.vcxproj|C:\\Users\\franl\\Documents\\GitHub\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\jugada.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3D7391A6-7C3C-4F2C-B64D-C336A4828462}|AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan.vcxproj|solutionrelative:AA2_water_color_sort_Eloi_Ivan\\jugada.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7391A6-7C3C-4F2C-B64D-C336A4828462}|AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan.vcxproj|C:\\Users\\franl\\Documents\\GitHub\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\tablero.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3D7391A6-7C3C-4F2C-B64D-C336A4828462}|AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan.vcxproj|solutionrelative:AA2_water_color_sort_Eloi_Ivan\\tablero.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7391A6-7C3C-4F2C-B64D-C336A4828462}|AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan.vcxproj|C:\\Users\\franl\\Documents\\GitHub\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\jugada.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3D7391A6-7C3C-4F2C-B64D-C336A4828462}|AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan.vcxproj|solutionrelative:AA2_water_color_sort_Eloi_Ivan\\jugada.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7391A6-7C3C-4F2C-B64D-C336A4828462}|AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan.vcxproj|C:\\Users\\franl\\Documents\\GitHub\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\tablero.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3D7391A6-7C3C-4F2C-B64D-C336A4828462}|AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan.vcxproj|solutionrelative:AA2_water_color_sort_Eloi_Ivan\\tablero.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "jugada.h",
+              "DocumentMoniker": "C:\\Users\\franl\\Documents\\GitHub\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\jugada.h",
+              "RelativeDocumentMoniker": "AA2_water_color_sort_Eloi_Ivan\\jugada.h",
+              "ToolTip": "C:\\Users\\franl\\Documents\\GitHub\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\jugada.h",
+              "RelativeToolTip": "AA2_water_color_sort_Eloi_Ivan\\jugada.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-28T23:22:15.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "jugada.cpp",
+              "DocumentMoniker": "C:\\Users\\franl\\Documents\\GitHub\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\jugada.cpp",
+              "RelativeDocumentMoniker": "AA2_water_color_sort_Eloi_Ivan\\jugada.cpp",
+              "ToolTip": "C:\\Users\\franl\\Documents\\GitHub\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\jugada.cpp",
+              "RelativeToolTip": "AA2_water_color_sort_Eloi_Ivan\\jugada.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-28T23:22:13.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "tablero.h",
+              "DocumentMoniker": "C:\\Users\\franl\\Documents\\GitHub\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\tablero.h",
+              "RelativeDocumentMoniker": "AA2_water_color_sort_Eloi_Ivan\\tablero.h",
+              "ToolTip": "C:\\Users\\franl\\Documents\\GitHub\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\tablero.h",
+              "RelativeToolTip": "AA2_water_color_sort_Eloi_Ivan\\tablero.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-28T23:22:10.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tablero.cpp",
+              "DocumentMoniker": "C:\\Users\\franl\\Documents\\GitHub\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\tablero.cpp",
+              "RelativeDocumentMoniker": "AA2_water_color_sort_Eloi_Ivan\\tablero.cpp",
+              "ToolTip": "C:\\Users\\franl\\Documents\\GitHub\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\tablero.cpp",
+              "RelativeToolTip": "AA2_water_color_sort_Eloi_Ivan\\tablero.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-28T23:22:08.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\franl\\Documents\\GitHub\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\main.cpp",
+              "RelativeDocumentMoniker": "AA2_water_color_sort_Eloi_Ivan\\main.cpp",
+              "ToolTip": "C:\\Users\\franl\\Documents\\GitHub\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\AA2_water_color_sort_Eloi_Ivan\\main.cpp",
+              "RelativeToolTip": "AA2_water_color_sort_Eloi_Ivan\\main.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-28T23:22:16.203Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

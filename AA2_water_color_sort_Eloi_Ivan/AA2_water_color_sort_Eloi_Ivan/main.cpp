@@ -11,14 +11,27 @@ int main() {
 	short intentos = NUM_INTENTOS;
 
 	inicializarTablero(tablero, fichas);
-	short opcionMenu = -1;
+	short opcionMenu = 0;
 
 
 	switch (opcionMenu)
 	{
 	case 0:
 		
-		//couts menu principal
+		std::cout << "------WATER COLOR SORT------\n" << std::endl;
+		std::cout << "\t1 - Nueva partida" << std::endl;
+		std::cout << "\t2 - Scores" << std::endl;
+		std::cout << "\t3 - Salir\n" << std::endl;
+		std::cout << "Escoje una opcion: " << std::flush;
+		std::cin >> opcionMenu;
+
+		while (std::cin.fail() || opcionMenu < 0 || opcionMenu > 3) {
+			std::cin.clear();
+			std::cin.ignore(1000, '\n');
+			std::cout << std::endl;
+			std::cout << "Introduce una opcion correcta: " << std::flush;
+			std::cin >> opcionMenu;
+		}
 
 	case 1:
 		gameOver = false;
@@ -47,7 +60,6 @@ int main() {
 
 				if (opcion == 2)
 				{
-					//volver al menu
 					opcionMenu = 0;
 					gameOver = true;
 				}
@@ -87,7 +99,6 @@ int main() {
 				std::cout << "\n¡Has ganado!" << std::endl;
 				std::cout << "Puntuacion final: " << calcularPuntuacion(tablero, intentos) << std::endl;
 				gameOver = true;
-				//continue;
 			}
 		}
 		break;
@@ -96,11 +107,13 @@ int main() {
 
 		break;
 
+	case 3:
+
+		break;
+
 	default:
 		break;
 	}
-
-	
 
 	return 0;
 }
