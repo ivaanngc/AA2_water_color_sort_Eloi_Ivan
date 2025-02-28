@@ -1,36 +1,106 @@
-#include "defines.h"
-
+#include "tablero.h"
+#include "jugada.h"
 
 int main() {
+	srand(time(NULL));
 
-	int posicionmover, posicionfinal;
+	short posicionMover = -1, posicionFinal = -1;
 	char tablero[ALTO][ANCHO];
-	char fichas[] = { 'X', 'O', '#', 'S' };
+	char fichas[NUM_FICHAS] = { 'X', 'O', '#', 'S' };
+	bool gameOver = false;
+	short intentos = NUM_INTENTOS;
 
-	for (int i = 0; i < ALTO; i++) {
-		for (int j = 0; j < ANCHO; j++) {
-			tablero[i][j] = ' ';
+	inicializarTablero(tablero, fichas);
+	short opcionMenu = -1;
+
+
+	switch (opcionMenu)
+	{
+	case 0:
+		
+		//couts menu principal
+
+	case 1:
+		gameOver = false;
+		while (!gameOver)
+		{
+			system("cls");
+			imprimirTablero(tablero);
+
+			{
+				bool error = false;
+				short opcion = -1;
+				do
+				{
+					if (error)
+					{
+						std::cin.clear();
+						std::cin.ignore(1000, '\n');
+						std::cout << "Introduce una opcion valida.";
+					}
+					std::cout << "¿Que quieres hacer?" << std::endl;
+					std::cout << "\t1 - Llenar botella" << std::endl;
+					std::cout << "\t2 - Volver al menu" << std::endl;
+					std::cin >> opcion;
+					error = opcion < 1 || opcion > 2 || std::cin.fail();
+				} while (error);
+
+				if (opcion == 2)
+				{
+					//volver al menu
+					opcionMenu = 0;
+					gameOver = true;
+				}
+			}
+		
+
+			if (intentos <= 0)
+			{
+				std::cout << "\nTe quedaste sin intentos" << std::endl;
+				std::cout << "Puntuacion final: " << calcularPuntuacion(tablero, intentos) << std::endl;
+				gameOver = true;
+				continue;
+			}
+			std::cout << "\nIntentos restantes: " << intentos << std::endl;
+			intentos--;
+
+			pedirSource(posicionMover);
+			while (columnaTotalmenteVacia(tablero, posicionMover))
+			{
+				std::cout << "Elige una columna con contenido";
+				pedirSource(posicionMover);
+			}
+
+		
+			pedirDestino(posicionFinal, posicionMover);
+			while (columnaLlena(tablero, posicionFinal))
+			{
+				std::cout << "Elige una columna vacia";
+				pedirDestino(posicionFinal, posicionMover);
+			}
+
+			moverContenido(posicionMover, posicionFinal, tablero);
+
+
+			if (comprobarVictoria(tablero))
+			{
+				std::cout << "\n¡Has ganado!" << std::endl;
+				std::cout << "Puntuacion final: " << calcularPuntuacion(tablero, intentos) << std::endl;
+				gameOver = true;
+				//continue;
+			}
 		}
+		break;
+
+	case 2:
+
+		break;
+
+	default:
+		break;
 	}
 
-
-	std::cout << "\\ / \\ / \\ / \\ / \\ / \\ /" << std::endl;
-	for (int i = 0; i < ALTO; i++) {
-		for (int j = 0; j < ANCHO; j++) {
-			std::cout << "|";
-			std::cout << tablero[i][j];
-			std::cout << "| ";
-		}
-		std::cout << std::endl;
-	}
-	std::cout << "''' ''' ''' ''' ''' '''" << std::endl;
-	std::cout << " 1   2   3   4   5   6 " << std::endl;
-
-	std::cout << "Posicion que quieres mover: \n";
-	std::cin >> posicionmover;
-	std::cout << "Posicion donde quieres mover: \n";
-	std::cin >> posicionfinal;
-
+	
 
 	return 0;
 }
