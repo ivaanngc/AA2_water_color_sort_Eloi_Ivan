@@ -24,6 +24,9 @@
     <ClCompile Include="jugada.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="scores.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="defines.h">
@@ -33,6 +36,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="jugada.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scores.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

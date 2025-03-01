@@ -50,8 +50,8 @@ void moverContenido(short indiceSource, short indiceDestino, char tablero[ALTO][
 
 }
 
-short calcularPuntuacion(char tablero[ALTO][ANCHO], short intentos) {
-	short puntuacion = 0;
+int calcularPuntuacion(char tablero[ALTO][ANCHO], short intentos) {
+	int puntuacion = 0;
 
 	for (short i = 0; i < ANCHO; i++) {
 		if (columnaTotalmenteVacia(tablero, i)) {

@@ -51,10 +51,10 @@ bool comprobarVictoria(char tablero[ALTO][ANCHO]) {
 			continue;
 		}
 
-		for (short j = 1; j < ALTO && completado; j++) {
-			if (tablero[j][i] != tablero[j - 1][i]) {
-				completado = false;
-			}
+		if (tablero[2][i] != tablero[1][i] || 
+			(tablero[2][i] == tablero[1][i] && (tablero[0][i] != VACIO && tablero[0][i] != tablero[1][i])) || 
+			(tablero[2][i] != VACIO && (tablero[1][i] != VACIO && tablero[2][i] != tablero[1][i]))) {
+			completado = false;
 		}
 	}
 

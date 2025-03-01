@@ -8,3 +8,4 @@
 #define NUM_FICHAS 4
 #define VACIO ' '
 #define NUM_INTENTOS 10
+#define NOMBRE_FICHERO "scores.wcs"

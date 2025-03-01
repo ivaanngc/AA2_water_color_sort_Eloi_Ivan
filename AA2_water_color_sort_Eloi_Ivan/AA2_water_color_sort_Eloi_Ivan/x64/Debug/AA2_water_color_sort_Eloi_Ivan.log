@@ -1,3 +1,7 @@
-﻿  main.cpp
-C:\Users\franl\Documents\GitHub\AA2_water_color_sort_Eloi_Ivan\AA2_water_color_sort_Eloi_Ivan\AA2_water_color_sort_Eloi_Ivan\main.cpp(5,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+﻿  jugada.cpp
+  main.cpp
+C:\Users\franl\Documents\GitHub\AA2_water_color_sort_Eloi_Ivan\AA2_water_color_sort_Eloi_Ivan\AA2_water_color_sort_Eloi_Ivan\main.cpp(6,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  scores.cpp
+  tablero.cpp
+  Generando código...
   AA2_water_color_sort_Eloi_Ivan.vcxproj -> C:\Users\franl\Documents\GitHub\AA2_water_color_sort_Eloi_Ivan\AA2_water_color_sort_Eloi_Ivan\x64\Debug\AA2_water_color_sort_Eloi_Ivan.exe
